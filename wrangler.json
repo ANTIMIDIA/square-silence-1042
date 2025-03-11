@@ -1,0 +1,30 @@
+{
+  "name": "square-silence-1042",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shy-mud-5e40-d1",
+      "database_id": "798447fa-3602-435d-a0b8-03f7d29d7d8a"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "square-silence-1042-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
